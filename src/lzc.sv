@@ -3,6 +3,7 @@
 // SPDX-License-Identifier: SHL-0.51
 
 `include "common_cells/assertions.svh"
+`include "cf_math_pkg.sv"
 
 /// A trailing zero counter / leading zero counter.
 /// Set MODE to 0 for trailing zero counter => cnt_o is the number of trailing zeros (from the LSB)
